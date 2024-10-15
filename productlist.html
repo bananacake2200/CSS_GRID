@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products List</title>
+    <style>
+
+        h1{
+            text-align: center;
+            padding: 10px;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .grid-item {
+            background-color: #ffebcc;
+            border: 2px solid #ffa31a;
+            padding: 15px;
+            font-family: Arial, sans-serif;
+            font-size: 1.2em;
+            text-align: center;
+            border-radius: 8px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Products List</h1>
+    <div class="grid-container">
+        <div class="grid-item">
+            <img src="img1.jfif" alt="Product 1">
+            <h2>Electric Pressure Cooker</h2>
+            <p>Price: $79.99</p>
+            <p>Description: 6-quart capacity, programmable settings, and safety features.</p>
+        </div>
+        <div class="grid-item">
+            <img src="img2.jfif" alt="Product 2">
+            <h2>Digital Air Fryer</h2>
+            <p>Price: $80.99</p>
+            <p>Description: Ideal for small kitchens, cooks up to 2.5 pounds of food.</p>
+        </div>
+        <div class="grid-item">
+            <img src="img3.jfif" alt="Product 3">
+            <h2>Countertop Microwave Oven</h2>
+            <p>Price: $60.99</p>
+            <p>Description: 1.2 cu. ft. capacity with 1100 watts of power and 10 power levels.</p>
+        </div>
+      
+    </div>
+</body>
+</html>
